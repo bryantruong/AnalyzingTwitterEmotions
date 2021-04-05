@@ -1,12 +1,18 @@
 # Analyzing Tweet Emotions
-## This is a public repository for a Node/Express/Vue.js app that allows users to load and analyze a given Twitter user's via the Twitter API and IBM Watson Natural Language Understanding.
+### This is a public repository for a Node/Express/Vue.js app that allows users to load and analyze a given Twitter user's via the Twitter API and IBM Watson Natural Language Understanding.
 A running demo of this application is hosted [here](https://tweet-emotion-analysis-dhwj4kp3mq-uc.a.run.app/).
+
+API Keys Needed:
+- In order for this to work locally, you must enter your own Twitter API Token and your own Watson API Key.
+- Copy and paste your Twitter API Token into the [.env](.env) file. 
+- Copy and paste your Watson API Key into the [api.js](api.js) file.
+
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads the front end for development
 ```
 npm run serve
 ```
@@ -20,6 +26,12 @@ npm run build
 ```
 npm run lint
 ```
+
+### Run the Express server (which serves the built front end) with hot-reloads (for the back end):
+```
+npm run backEndDev
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
