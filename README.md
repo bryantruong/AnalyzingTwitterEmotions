@@ -17,7 +17,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies the front end, to be served by the back end
 ```
 npm run build
 ```
@@ -27,11 +27,8 @@ npm run build
 npm run lint
 ```
 
-### Run the Express server (which serves the built front end) with hot-reloads (for the back end):
+### Run the Express server (which serves the built front end) with hot-reloads (for the back end ONLY)
+- You must build the front-end prior to running the back end.
 ```
 npm run backEndDev
 ```
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
