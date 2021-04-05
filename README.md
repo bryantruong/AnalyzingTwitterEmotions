@@ -32,3 +32,7 @@ npm run lint
 ```
 npm run backEndDev
 ```
+
+### Running via Docker
+You can also just run it locally in a contanier via Docker (see [Dockerfile](Dockerfile)).
+
