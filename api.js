@@ -17,7 +17,7 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 const nlu = new NaturalLanguageUnderstandingV1({
     version: '2020-03-10',
     authenticator: new IamAuthenticator({
-      apikey: process.env.NATURAL_LANGUAGE_UNDERSTANDING_IAM_APIKEY || 'TODO: type-key-here',
+      apikey: process.env.NATURAL_LANGUAGE_UNDERSTANDING_IAM_APIKEY,
     }),
     url: process.env.NATURAL_LANGUAGE_UNDERSTANDING_URL,
   });
