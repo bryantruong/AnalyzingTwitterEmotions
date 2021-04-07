@@ -4,8 +4,8 @@ A running demo of this application is hosted [here](https://tweet-emotion-analys
 
 API Keys Needed:
 - In order for this to work locally, you must enter your own Twitter API Token and your own Watson API Key.
-- Copy and paste your Twitter API Token into the [.env](.env) file. 
-- Copy and paste your Watson API Key into the [api.js](api.js) file.
+- Copy and paste your Watson API Key/Token into the [.env](.env) file. 
+- Copy and paste your Twitter API Key/Token into the [api.js](api.js) file.
 
 ## Project setup
 ```
@@ -34,5 +34,5 @@ npm run backEndDev
 ```
 
 ### Running via Docker
-You can also just run it locally in a contanier via Docker (see [Dockerfile](Dockerfile)).
+You can also just run it locally in a container via Docker (see [Dockerfile](Dockerfile)).
 
