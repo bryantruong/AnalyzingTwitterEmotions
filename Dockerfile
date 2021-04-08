@@ -7,11 +7,10 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 # Copy over all the files in this directory into the container's working directory
-# Set the environment variable for the Twitter Bearer Token
 COPY . .
 RUN npm run build
 # Run the web service on container startup.
 CMD [ "npm", "start" ]
 
 # Run with docker run -it -p 8080:8080 name_of_image
-#TODO: Should switch to nginx server
+#TODO: For a production app, concerned with higher performance, should put an nginx server in front of this.
